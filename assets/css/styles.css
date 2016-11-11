@@ -1,0 +1,256 @@
+﻿﻿/*About Section Styles*/
+.about-div h3 {
+    color: #2b6151;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.about-div hr {
+    border: #1A94C4 solid 2px;
+}
+
+.about-div img {
+    border: #fff solid 3px;
+    color: #2f9484;
+    cursor: pointer;
+    float: left;
+    height: auto;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.about-div p {
+    padding-top: 10px;
+}
+
+/*Bus Section Styles*/
+.bus-div h3 {
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.bus-div hr {
+    border: #1A94C4 solid 1px;
+}
+
+.bus-div img {
+    border: #fff solid 1px;
+    color: #2f9484;
+    cursor: pointer;
+    float: left;
+    height: 32.5rem;
+    padding-top: 15px;
+    text-align: center;
+    width: 95%;
+}
+
+.bus-div p {
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.faculty-div h4 {
+    font-weight: 700;
+    line-height: 30px;
+}
+
+/*Footer Section Styles*/
+.footer-container {
+    background-color: #416693;
+    color: #fff;
+    font-size: 14px;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.footer-container .row {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.footer-container .row hr {
+    padding: 1px;
+}
+
+.footer-credits {
+    background-color: #2d3d5a;
+    color: #fff;
+    font-size: 12px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+/*Home Section Styles*/
+.home-sec h1 {
+    color: #fff;
+    font-size: 52px;
+    font-weight: 900;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.home-sec h3 {
+    text-transform: uppercase;
+}
+
+/*Icon Styles*/
+.icon-small {
+    height: 35px;
+}
+
+/*Navigation Bar Styles*/
+.nav-l1 {
+    background: #0f253c;
+    border-top: 1px solid #2f9484;
+    line-height: 0;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.nav-l1 a {
+    color: #fff;
+    background: none #0f253c !important;
+    font-weight: 100;
+}
+
+.nav-l1 li {
+    display: inline-block;
+    border-left: 1px solid #0f253c !important;
+    float: none;
+    margin: 0 40px;
+    vertical-align: middle;
+}
+
+.nav-l1 li a:active {
+    background: #1c20c3;
+    color: #fff;
+}
+
+.nav-l1 li a:hover {
+    background: #1b1e9e;
+    color: #1ab7ea !important;
+}
+
+.nav-l1 .navbar-brand {
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.nav-l2 a {
+    background: #eee !important;
+    color: #666 !important;
+    font-size: 10px !important;
+}
+
+.nav-l2 a:hover {
+    color: #fff !important;
+}
+
+/*Navbar Container Styles*/
+.nav-container a,
+.nav-container a:hover,
+.nav-container a:focus,
+.nav-container a:active {
+    font-size: 18px;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav-container a.disabled {
+    color: #a1d1e8;
+    background: #3092c0;
+    cursor: not-allowed;
+}
+
+.nav-container,
+.nav-container *,
+.nav-container ul,
+.nav-container li {
+    color: #FFF;
+    display: block;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+}
+
+/*Navigation Bar Responsive Code*/
+@media screen and (max-width: 767px) {
+    .nav-container {
+        background: #185a73;
+    }
+
+    .nav-l1 .nav ul {
+        display: block;
+    }
+
+    .navbar-brand {
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .nav-l1 ul {
+        display: inline-block;
+    }
+
+    .navbar-brand {
+        display: none;
+    }
+
+    .nav-container li {
+        float: left;
+    }
+
+    .nav-container ul a.disabled {
+        background: #FFF;
+        color: #b3b3b3;
+    }
+
+    .nav-container ul li {
+        border: 0;
+    }
+
+    .nav-container.nav-container-vertical > li {;
+        border-left: 0 !important;
+    }
+
+    .nav-container .nav-container-vertical a,
+    .nav-container .nav-container-vertical ul a {
+        padding: 9px 23px;
+    }
+}
+
+/*Tag Line Styles*/
+.tag-line {
+    background: #E9E9E9;
+    color: #000;
+}
+
+.tag-line h2 {
+    color: #005E5A;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 5px 10px 10px 5px;
+}
+
+.tag-line h2 > i {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+/*Global Body Style*/
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+h1::after {
+    border: #2f9484 solid 2px;
+    content: " ";
+    display: block;
+    margin: 12px auto;
+}
